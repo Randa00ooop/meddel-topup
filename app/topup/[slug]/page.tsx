@@ -64,8 +64,8 @@ export default function TopupDetail({ params }: { params: Promise<{ slug: string
                                 key={item.id}
                                 onClick={() => setSelectedItem(item.id)}
                                 className={`p-4 rounded-lg border cursor-pointer transition ${selectedItem === item.id
-                                        ? "border-blue-500 bg-blue-950/40"
-                                        : "border-slate-700 bg-slate-900 hover:border-slate-500"
+                                    ? "border-blue-500 bg-blue-950/40"
+                                    : "border-slate-700 bg-slate-900 hover:border-slate-500"
                                     }`}
                             >
                                 <div className="font-semibold text-sm">{item.name}</div>
@@ -86,8 +86,8 @@ export default function TopupDetail({ params }: { params: Promise<{ slug: string
                                 key={pay.id}
                                 onClick={() => setSelectedPayment(pay.id)}
                                 className={`p-4 rounded-lg border cursor-pointer flex justify-between items-center transition ${selectedPayment === pay.id
-                                        ? "border-blue-500 bg-blue-950/40"
-                                        : "border-slate-700 bg-slate-900 hover:border-slate-500"
+                                    ? "border-blue-500 bg-blue-950/40"
+                                    : "border-slate-700 bg-slate-900 hover:border-slate-500"
                                     }`}
                             >
                                 <span className="font-medium text-sm">{pay.name}</span>
@@ -140,7 +140,7 @@ export default function TopupDetail({ params }: { params: Promise<{ slug: string
                             <div className="bg-slate-900 p-4 rounded-lg text-center mb-6 border border-slate-700">
                                 <p className="text-xs text-slate-400 mb-1">Transfer e-Wallet / QRIS ke:</p>
                                 <p className="font-mono font-bold text-lg text-green-400">0821-xxxx-xxxx</p>
-                                <p className="text-xs text-slate-500 mt-1">a.n. Meddel Topup Store</p>
+                                <p className="text-xs text-slate-500 mt-1">a.n. FFFFF</p>
                             </div>
 
                             <div className="flex gap-3">

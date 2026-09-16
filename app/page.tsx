@@ -12,7 +12,7 @@ export default function Home() {
     <main className="min-h-screen bg-slate-900 text-white p-8">
       {/* Header */}
       <header className="max-w-4xl mx-auto flex justify-between items-center pb-8 border-b border-slate-800">
-        <h1 className="text-2xl font-bold text-blue-500">Meddel Topup</h1>
+        <h1 className="text-2xl font-bold text-blue-500">FFFFF</h1>
         <button className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-semibold transition">
           Masuk / Daftar
         </button>
